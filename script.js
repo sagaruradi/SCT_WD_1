@@ -7,6 +7,10 @@ window.addEventListener("scroll", function () {
   }
 });
 
+document.querySelector('.contact-form').onsubmit(function(e) {
+   e.preventDefault();
+});
+
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
